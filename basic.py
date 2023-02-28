@@ -10,3 +10,7 @@ print("9")             #datatype -> string
 
 print(None)            #None 為一類別
 print(type(None))      #None Type
+
+a = 9   
+print(a/4)
+print(a//4)             #兩次 // 相當於取道整數位
