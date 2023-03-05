@@ -1,4 +1,4 @@
-def f():
+def f():                    #def 後要加冒號
     print("im function.")
 
 f()
