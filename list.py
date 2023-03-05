@@ -11,3 +11,14 @@ def Max(l):
             max = l[i]
     return max
 print("Max:",Max(list))  
+
+
+arr = ['偶數' , '奇數']
+a = 15
+print(arr[a%2])         #透過這樣就可以快速印出 不用寫 if
+
+
+k=[['a','b'],'c']       #陣列中允許有陣列的陣列
+print(k[0][0])
+print(k[0][1])
+print(k[1])
