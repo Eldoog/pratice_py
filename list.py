@@ -5,9 +5,9 @@ for i in list:          #此為印出 list 裡面的數值，非印出 list[i] �
 
 # list 新增、插入
 print(list)
-list.append('15')
+list.append('15')       #在'末置位'做新增
 print(list)
-list.insert(1,'2222')
+list.insert(1,'2222')   #插入, 根據'編號'位置作插入
 print(list)
 
 
